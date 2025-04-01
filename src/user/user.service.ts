@@ -28,6 +28,7 @@ export class UserService {
 
     return this.userRepository.save({
       ...createUserDto,
+      typeUser: 'common',
       password: hashedPassword,
       confirmPassword: undefined,
     });
