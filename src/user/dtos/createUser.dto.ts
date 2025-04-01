@@ -5,11 +5,6 @@ export interface CreateUserDto {
   password: string;
   confirmPassword: string;
   phoneNumber: string;
-  address: string;
-  city: string;
-  state: string;
-  country: string;
-  postalCode: string;
   document: string;
   documentType: string;
 }

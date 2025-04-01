@@ -29,21 +29,6 @@ export class UserEntity {
   @Column({ name: 'phone_number', nullable: false })
   phoneNumber!: string;
 
-  @Column({ name: 'address', nullable: false })
-  address!: string;
-
-  @Column({ name: 'city', nullable: false })
-  city!: string;
-
-  @Column({ name: 'state', nullable: false })
-  state!: string;
-
-  @Column({ name: 'country', nullable: false })
-  country!: string;
-
-  @Column({ name: 'postal_code', nullable: false })
-  postalCode!: string;
-
   @Column({ name: 'document', nullable: false })
   document!: string;
 
